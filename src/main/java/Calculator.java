@@ -50,6 +50,7 @@ class Calculator {
         return fib(n);
     }
 
+    breakcode
 
     /*
     Returns binary value of the given int number
