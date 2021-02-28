@@ -1,5 +1,5 @@
 public class Main {
-    public static int main(String args[]) {
+    public static void main(String args[]) {
         String funct = args[0];
         Calculator calc = new Calculator();
         int answer;
@@ -23,6 +23,5 @@ public class Main {
             binAnswer = calc.intToBinaryNumber(Integer.parseInt(args[1]));
             System.out.println("Output: " + binAnswer);
         }
-        return 0;
     }
 }
