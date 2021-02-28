@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String args[]) {
+        if (args.length < 0) {
+            return;
+        }
         String funct = args[0];
         Calculator calc = new Calculator();
         int answer;
