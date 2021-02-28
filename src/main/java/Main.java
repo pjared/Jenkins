@@ -1,5 +1,5 @@
 public class Main {
-    static int main(String args[]) {
+    public static int main(String args[]) {
         String funct = args[0];
         Calculator calc = new Calculator();
         int answer;
